@@ -10,9 +10,6 @@
                     <a class="nav-link {{ ($activel == "Home") ? 'active' : '' }}"  href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ ($activel == "about") ? 'active' : '' }}" href="/about">About</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link {{ ($activel === "post") ? 'active' : '' }}" href="/blog">Blog</a>
                 </li>
                 <li class="nav-item">

@@ -28,18 +28,6 @@ Route::get('/', function () {
 });
 
 
-Route::get('/about',function (){
-    return view('about',[
-        "title" => "About",
-        "activel" =>"about",
-        "name" => "yurdi",
-        "email" => "keqing@gmail.com",
-        "image" => "keqing.jpg"
-    ]);
-});
-
-
-
 Route::get('/blog', [PostController::class,'index']);
 
 // halaman single post
